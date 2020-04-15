@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+body {
+	background:#5BD2FF;
+	font-family:Tahoma;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+ 
+input[type="text"], input[type="password"] {
+	padding:5px;
+	margin:2px 0px;
+	width:230px;
+	border:1px solid #33CCFF;
+}
+ 
+	input[type="text"]:hover, input[type="password"]:hover {
+		border:1px solid #3399FF;
+	}
+ 
+	input[type="text"]:focus, input[type="password"]:focus {
+		border:1px solid #3399FF;
+		box-shadow:0px 0px 2px #3399FF inset;
+	}
+ 
+select {
+	padding:5px;
+	margin:2px 0px;
+	width:150px;
+	border:1px solid #33CCFF;
+}
+ 
+	select:hover {
+		border:1px solid #3399FF;
+	}
+ 
+	select:focus {
+		border:1px solid #3399FF;
+		box-shadow:0px 0px 2px #3399FF inset;
+	}
+ 
+input[type="submit"] {
+	margin:0;
+	padding:5px 15px;
+	border:1px solid #3399FF;
+	background:#33CCFF;
+	font-weight:bold;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+ 
+	input[type="submit"]:hover {
+		border:1px solid #3366FF;
+		background:#3399FF;
+	}
+ 
+	input[type="submit"]:focus {
+		box-shadow:0px 0px 5px #3399FF;
+	}
+ 
+#header {
+	text-align:center;
+	margin-top:150px;
+	margin-bottom:20px;
+	color:#FFFFFF;
+}
+ 
+	#header h1 {
+		padding:0;
+		margin:5px 0px;
+		font-family:Georgia;
+		text-shadow:1px 1px 2px #3366FF;
+	}
+ 
+	#header .desc {
+		font-family:Tahoma;
+		font-size:12px;
+		text-shadow:1px 1px 2px #3366FF;
+	}
+ 
+#login {
+	width:250px;
+	margin:0px auto;
+	padding:10px 20px;
+	box-shadow:0px 0px 5px #3366FF;
+	border-radius:5px;
+	background:#FFFFFF;
+}
+ 
+	#login .error {
+		line-height:16px;
+		color:#FF0000;
+		border-bottom:1px dashed #FF0000;
+		padding-bottom:5px;
+	}
+ 
+		#login .error span {
+			margin-left:10px;
+			font-size:11px;
+			line-height:15px;
+		}
